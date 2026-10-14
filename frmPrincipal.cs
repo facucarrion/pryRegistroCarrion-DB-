@@ -33,5 +33,11 @@ namespace pryRegistroCarrion_DB_
             frmListadoDeudores frmListadoDeudores = new frmListadoDeudores();
             frmListadoDeudores.ShowDialog();
         }
+
+        private void buscarClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBuscarCliente frmBuscarCliente = new frmBuscarCliente();
+            frmBuscarCliente.ShowDialog();
+        }
     }
 }
